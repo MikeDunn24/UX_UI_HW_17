@@ -1,0 +1,60 @@
+<head>
+    <link INDEX.HTML>
+</head>
+/* Target elements with the class of inline-block */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Style the logo div */
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center; /* Center the content inside */
+}
+
+/* Style the nav element */
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+/* Align the unordered list to the right */
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Center the text inside list items */
+nav li {
+    padding: 10px;
+}
+
+/* Apply background color to navbar */
+header {
+    background-color: #333;
+    color: #fff;
+}
+/* Style the heroImg section */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Style the content inside heroImg */
+.heroImg .content {
+    width: 500px;
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center text content */
+    color: #fff; /* Text color */
+}
+
+/* Apply box shadow to the content */
+.heroImg .content {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
